@@ -1,7 +1,8 @@
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy('./src/interaction.js');
+    eleventyConfig.addPassthroughCopy('./src/assets/*');
+    eleventyConfig.addPassthroughCopy('./src/script.js');
     eleventyConfig.addPassthroughCopy('./src/styles.css');
-    eleventyConfig.addWatchTarget('./src/interaction.js');
+    eleventyConfig.addWatchTarget('./src/script.js');
     eleventyConfig.addWatchTarget('./src/styles.css');
 
     return {
