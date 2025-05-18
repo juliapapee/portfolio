@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julia Papée | UX Designer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julia Papée | UX Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- Navbar -->
+
+  <nav class="navMenu">
+    <div class="navMenu__links">
+      <a href="#home">Home</a>
+      <a href="#design-statement">Story</a>
+      <a href="#work">Projects</a>
+      <a href="#contact">Contact</a>
+      <div class="dot"></div>
+    </div>
+  </nav>
+
+  <!-- Navbar 
     <header class="navbar">
         <div class="nav-left">
             <img src="assets/julia.svg" alt="Julia Papee">
@@ -26,259 +43,317 @@
             <a href="CV.pdf" target="_blank">CV</a>
             <a href="https://linkedin.com/in/juliapapee" target="_blank">LinkedIn</a>
         </div>
-    </header>
+    </header> -->
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1 class="hero-title">Julia Papée</h1>
-        <p class="hero-subtitle">UX DESIGNER BASED IN CRACOW, PASSIONATE ABOUT CROSS-CULTURAL AND SPECULATIVE DESIGN.</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero" id='home'>
+    <div class="hero-grid">
+      <img class="hero-img" src="assets/homepage_Julia600.png" alt="Julia's profile picture">
+      <h1 class="hero-name">JULIA PAPÉE</h1>
+      <p class="hero-description">
+        Hi, I’m a UX designer based in Cracow, passionate about Cross Cultural and Speculative design.</p>
+    </div>
+  </section>
 
-    <!-- Hero Image -->
-    <section class="hero-image">
-        <img src="assets/mainpage460.png" alt="Julia Papee Portfolio Cover">
-    </section>
-
-    <!-- My Design DNA (Accordion) -->
-    <section>
-        <div class="container">
-        <h2 class="DNA">My Design DNA</h2>
-          <div class="accordion">
-            <div class="accordion-item" id="question1">
-              <a class="accordion-link">
-                <div class="flex">
-                  <h3>UX Design</h3>
-                  <ul>
-                    <li>#Figma</li>
-                    <li>#Sketch</li>
-                    <li>#Adobe</li>
-                    <li>#Invision</li>
-                    <li>#Protopie</li>
-                  </ul>
-                </div>
-                <img src="assets/arrow_up.svg" class="icon ion-md-arrow-forward">
-                <img src="assets/arrow.svg" class="icon ion-md-arrow-down">
-              </a>
-              <div class="answer">
-                <p> For me, UX design is about crafting seamless interactions and intuitive information flows. I shape processes to align with business needs using design thinking and the double diamond framework. Lately, I’ve been fascinated by a shift from user-centered to practice-centered design—focusing on real-world behaviors rather than just individual needs.</p>
-              </div>
-              <hr>
-          </div>
-            <div class="accordion-item" id="question2">
-              <a class="accordion-link">
-                <div class="flex">
-                  <h3>UX Research</h3>
-                  <ul>
-                    <li>#Figma</li>
-                    <li>#Sketch</li>
-                    <li>#Adobe</li>
-                    <li>#Invision</li>
-                    <li>#Protopie</li>
-                  </ul>
-                </div>
-                <img src="assets/arrow_up.svg" class="icon ion-md-arrow-forward">
-                <img src="assets/arrow.svg" class="icon ion-md-arrow-down">
-              </a>
-              <div class="answer">
-                <p>I blend qualitative and quantitative research to uncover deep insights. My experience ranges from in-depth interviews and ethnographic studies to usability testing, heuristic evaluations, and even experimental methods like the Wizard of Oz technique. Each approach helps me bridge the gap between user expectations and business goals.</p>
-              </div>
-              <hr>
-          </div>
-            <div class="accordion-item" id="question3">
-              <a class="accordion-link">
-                <div class="flex">
-                  <h3>Cross-Cultural</h3>
-                  <ul>
-                    <li>#Figma</li>
-                    <li>#Sketch</li>
-                    <li>#Adobe</li>
-                    <li>#Invision</li>
-                    <li>#Protopie</li>
-                  </ul>
-                </div>
-                <img src="assets/arrow_up.svg" class="icon ion-md-arrow-forward">
-                <img src="assets/arrow.svg" class="icon ion-md-arrow-down">
-              </a>
-              <div class="answer">
-                <p>With experience in both the multicultural Netherlands and international corporate environments, I’ve gained unique insight into how different cultures perceive interfaces and prioritize features. Understanding these nuances allows me to design products that resonate across diverse audiences.</p>
-              </div>
-              <hr>
-          </div>
-            <div class="accordion-item" id="question4">
-              <a class="accordion-link">
-                <div>
-                  <h3>Service Design</h3>
-                  <ul>
-                    <li>#Figma</li>
-                    <li>#Sketch</li>
-                    <li>#Adobe</li>
-                    <li>#Invision</li>
-                    <li>#Protopie</li>
-                  </ul>
-                </div>
-                <img src="assets/arrow_up.svg" class="icon ion-md-arrow-forward">
-                <img src="assets/arrow.svg" class="icon ion-md-arrow-down">
-              </a>
-              <div class="answer">
-                <p>Grounded in Norman Nielsen Group training, university research, and industry projects, my approach to service design focuses on the entire journey—identifying pain points, streamlining processes, and enhancing experiences at every touchpoint. To me, service design isn’t just about fixing issues; it’s about crafting solutions that work seamlessly across digital and physical spaces.</p>
-              </div>
-              <hr>
-          </div>
-         </div>
-        </div>
-      </section>
-
-    <!-- Design Statement Section -->
-    <section class="design-statement" id="design-statement">
-        <div class="text-content">
-            <h3>I see myself as a flâneur, wandering around the city and uncovering its hidden corners from the back seat of a local.</h3>
-            <p>Similarly, in the research process, I immerse myself in the user’s perspective, exploring their journey with the same curiosity and attentiveness.</p>
-        </div>
-        <div class="image-content">
-            <img src="assets/design_statement2.png" alt="Design Research">
-        </div>
-    </section>
+  <!-- Hero Image -->
+  <section class="hero-image">
+    <img src="assets/hero_lighter.png" alt="Julia Papee Portfolio Cover">
+  </section>
 
 
-    <!-- Projects section -->
-    <div class="card-container" id="work">
-        <h2 class="projects-header">My projects</h2>
-        <!-- Full Width Card -->
-        <a href="https://www.zalando-lounge.pl/event" class="card full" target="_blank">    
-            <div class="image-box">
-                <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                <img  class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
+
+  <!-- My Design DNA (Accordion) -->
+  <section id="design-statement">
+    <div class="container">
+
+      <h2 class="DNA">MY DESIGN DNA</h2>
+      <div class="accordion">
+        <div class="accordion-item" id="question1">
+          <a class="accordion-link">
+            <div class="flex">
+              <h3>UX Design</h3>
             </div>
-            <div class="card-content">
-                <p class="overline">Smart Mirror</p>
-                <h2 class="title">Mirror, mirror on the wall, who is the fairest of them all?</h2>
-                <p class="subtitle">Service Design, UX Design, Industrial Design</p>
+            <img src="assets/arrow_up.svg" class="icon ion-md-arrow-forward">
+            <img src="assets/arrow.svg" class="icon ion-md-arrow-down">
+          </a>
+          <div class="answer">
+            <p> For me, UX design is about crafting seamless interactions and intuitive information flows. I shape
+              processes to align with business needs using design thinking and the double diamond framework. Lately,
+              I’ve been fascinated by a shift from user-centered to practice-centered design—focusing on real-world
+              behaviors rather than just individual needs.</p>
+          </div>
+          <hr>
+        </div>
+        <div class="accordion-item" id="question2">
+          <a class="accordion-link">
+            <div class="flex">
+              <h3>UX Research</h3>
             </div>
-        </a>
+            <img src="assets/arrow_up.svg" class="icon ion-md-arrow-forward">
+            <img src="assets/arrow.svg" class="icon ion-md-arrow-down">
+          </a>
+          <div class="answer">
+            <p>I blend qualitative and quantitative research to uncover deep insights. My experience ranges from
+              in-depth interviews and ethnographic studies to usability testing, heuristic evaluations, and even
+              experimental methods like the Wizard of Oz technique. Each approach helps me bridge the gap between user
+              expectations and business goals.</p>
+          </div>
+          <hr>
+        </div>
+        <div class="accordion-item" id="question3">
+          <a class="accordion-link">
+            <div class="flex">
+              <h3>Cross-Cultural</h3>
+            </div>
+            <img src="assets/arrow_up.svg" class="icon ion-md-arrow-forward">
+            <img src="assets/arrow.svg" class="icon ion-md-arrow-down">
+          </a>
+          <div class="answer">
+            <p>With experience in both the multicultural Netherlands and international corporate environments, I’ve
+              gained unique insight into how different cultures perceive interfaces and prioritize features.
+              Understanding these nuances allows me to design products that resonate across diverse audiences.</p>
+          </div>
+          <hr>
+        </div>
+        <div class="accordion-item" id="question4">
+          <a class="accordion-link">
+            <div>
+              <h3>Service Design</h3>
+            </div>
+            <img src="assets/arrow_up.svg" class="icon ion-md-arrow-forward">
+            <img src="assets/arrow.svg" class="icon ion-md-arrow-down">
+          </a>
+          <div class="answer">
+            <p>Grounded in Norman Nielsen Group training, university research, and industry projects, my approach to
+              service design focuses on the entire journey—identifying pain points, streamlining processes, and
+              enhancing experiences at every touchpoint. To me, service design isn’t just about fixing issues; it’s
+              about crafting solutions that work seamlessly across digital and physical spaces.</p>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Two Half Width Cards -->
-        <div class="row">
-            <a href="https://www.zalando-lounge.pl/event" class="card half" target="_blank">      
-                <div class="image-box">
-                    <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                    <img  class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
-                </div>
-                <div class="card-content">
-                    <p class="overline">Building & Testing Prototypes</p>
-                    <h2 class="title">Run Forest, Run! </h2>
-                    <p class="subtitle">Usability Testing, UX Research, UX Design</p>
-                </div>
-            </a>
-            <a href="https://www.zalando-lounge.pl/event" class="card half" target="_blank">  
-                <div class="image-box">
-                    <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                    <img class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
-                </div>
-                <div class="card-content">
-                    <p class="overline">Luna App</p>
-                    <h2 class="title">How to capture the magic of dreams?</h2>
-                    <p class="subtitle">UX Design, UI Design</p>
-                </div>
-            </a>
+
+  <!-- About  Section -->
+  <section class="about-section">
+    <h3 class="about-label">ABOUT</h3>
+    <div class="about-grid">
+      <p class="about-heading">
+        I see myself as a flâneur, wandering around the city and uncovering its hidden corners from the back seat of a
+        local.
+      </p>
+      <div class="about-image">
+        <video src="assets/aboutvideo.mp4" alt="Urban exploration photo" autoplay loop muted>
+      </div>
+      <p class="about-body">
+        Similarly, in the research process, I immerse myself in the user’s perspective, exploring their journey with the
+        same curiosity and attentiveness.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Projects section -->
+  <div class="card-container" id="work">
+    <h2 class="projects-header">My projects</h2>
+    <!-- Full Width Card -->
+    <a href="https://www.figma.com/deck/m94mPDAiCJhsktgnydI2cj/Wzornictwo---Smart-Mirror?node-id=1-511&viewport=-78%2C-39%2C0.39&t=pOVzPwb5NtXP23Hh-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="card full" target="_blank">
+      <div class="image-box">
+        <img class="innerCard" src="assets/mirror2.png" alt="Card Image">
+        <div class="arrowContainer">
+          <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+              fill="#080313" />
+          </svg>
         </div>
 
-        <!-- Three One-Third Width Cards -->
-        <div class="row">
-            <a href="https://www.zalando-lounge.pl/event" class="card third" target="_blank">      
-                <div class="image-box">
-                    <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                    <img class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
-                </div>
-                <div class="card-content">
-                    <p class="overline">Toast Bar </p>
-                    <h2 class="title">To toasts in the air & on the plate</h2>
-                    <p class="subtitle">UX Design, UI Design</p>
-                </div>
-            </a>
-            <a href="https://www.zalando-lounge.pl/event" class="card third" target="_blank">  
-                <div class="image-box">
-                    <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                    <img class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
-                </div>
-                <div class="card-content">
-                    <p class="overline">Travel Agent</p>
-                    <h2 class="title">If not now, when? </h2>
-                    <p class="subtitle">UX Research</p>
-                </div>
-            </a>
-            <a href="https://www.zalando-lounge.pl/event" class="card third" target="_blank">  
-                <div class="image-box">
-                    <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                    <img class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
-                </div>
-                <div class="card-content">
-                    <p class="overline">Unwrapping Gift Giving </p>
-                    <h2 class="title">Bespoke Design</h2>
-                    <p class="subtitle">UX Research, UX Design</p>
-                </div>
-            </a>
+      </div>
+      <div class="card-content">
+        <p class="overline">Smart Mirror</p>
+        <h2 class="title">Mirror, mirror on the wall, who is the fairest of them all?</h2>
+        <p class="subtitle">Service Design, UX Design, Industrial Design</p>
+      </div>
+    </a>
+
+    <!-- Two Half Width Cards -->
+    <div class="row">
+      <a href="https://www.figma.com/deck/ub31bTgd0zjnQjd0gnxHBw/final-UX-Writing--Outlook-App?node-id=1-42&viewport=-78%2C-39%2C0.39&t=7WEdcUXUA0PpLp35-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="card half" target="_blank">
+        <div class="image-box">
+          <img class="innerCard" src="assets/mail_violet.png" alt="Card Image">
+          <div class="arrowContainer">
+            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+                fill="#080313" />
+            </svg>
+          </div>>
         </div>
-
-        <a href="https://www.zalando-lounge.pl/event" class="card full" target="_blank"> 
-            <div class="image-box">
-                <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                <img class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
-            </div>
-            <div class="card-content">
-                <p class="overline">Wizard of Oz Prototyping</p>
-                <h2 class="title">Crafting Illusions to Test Big Ideas Quickly </h2>
-                <p class="subtitle">UX Research, UX Design</p>
-            </div>
-        </a>
-
-        <div class="row">
-            <a href="https://www.zalando-lounge.pl/event" class="card half" target="_blank"> 
-                <div class="image-box">
-                    <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                    <img class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
-                </div>
-
-                <div class="card-content">
-                    <p class="overline">Cross-Cultural UX Design</p>
-                    <h2 class="title">Designing with Cultural Aspects</h2>
-                    <p class="subtitle">UX Research, Usability Testing, UX Design</p>
-                </div>
-            </a>
-            <a href="https://www.zalando-lounge.pl/event" class="card half" target="_blank"> 
-                <div class="image-box">
-                    <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
-                    <img class="bigArrow" src="assets/Button-interaction-card.svg" alt="Card Image">
-                </div>
-                <div class="card-content">
-                    <p class="overline">NASA Space Hackathon</p>
-                    <h2 class="title">How one Sensor, saved our Planet</h2>
-                    <p class="subtitle">UX Design, UI Design</p>
-                </div>
-            </a>
+        <div class="card-content">
+          <p class="overline">UX Writing Audit</p>
+          <h2 class="title">Outlook App for Mac</h2>
+          <p class="subtitle">UX Writing, UX Design</p>
         </div>
-
+      </a>
+      <a href="https://www.figma.com/deck/BXl5Fla3hEH8WQsvjwZjNF/Luna-App?node-id=5-2&viewport=-78%2C15%2C0.39&t=sQkjOi9lYNWfHJ01-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="card half" target="_blank">
+        <div class="image-box">
+          <img class="innerCard" src="assets/moon.png" alt="Card Image">
+          <div class="arrowContainer">
+            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+                fill="#080313" />
+            </svg>
+          </div>>
+        </div>
+        <div class="card-content">
+          <p class="overline">Luna App</p>
+          <h2 class="title">How to capture the magic of dreams?</h2>
+          <p class="subtitle">UX Design, UI Design</p>
+        </div>
+      </a>
     </div>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="contact-content">
-            <h2>Hi there, let's stay connected!</h2>
-            <div class="contact-content-buttons">
-                <div class="contact-content-buttons-button">
-                    <a href="CV.pdf" class="btn" target="_blank">CV </a>
-                </div>
-                <div class="contact-content-buttons-button">
-                    <a href="https://linkedin.com/in/juliapapee" class="btn" target="_blank">LinkedIn</a>
-                </div>
-            </div>
-            <div class="contact-img">   
-                <img src="assets/JuliaPapee_UX_Designer.png" alt="Julia Papee">
-            </div> 
-            
+    <!-- Three One-Third Width Cards -->
+    <div class="row">
+      <a href="https://www.figma.com/deck/PjoQEmlsckFAFgTNeQC97N/Untitled?node-id=1-42&viewport=16%2C22%2C0.31&t=TgzuB2oCw8kQhAWc-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="card third" target="_blank">
+        <div class="image-box">
+          <img class="innerCard" src="assets/glasses2.png" alt="Card Image">
+          <div class="arrowContainer">
+            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+                fill="#080313" />
+            </svg>
+          </div>>
         </div>
-    </section>
+        <div class="card-content">
+          <p class="overline">Toast Bar </p>
+          <h2 class="title">To toasts in the air & on the plate</h2>
+          <p class="subtitle">UX Design, UI Design</p>
+        </div>
+      </a>
+      <a href="https://www.zalando-lounge.pl/event" class="card third" target="_blank">
+        <div class="image-box">
+          <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
+          <div class="arrowContainer">
+            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+                fill="#080313" />
+            </svg>
+          </div>>
+        </div>
+        <div class="card-content">
+          <p class="overline">Travel Agent</p>
+          <h2 class="title">If not now, when? </h2>
+          <p class="subtitle">UX Research</p>
+        </div>
+      </a>
+      <a href="https://www.figma.com/deck/6N3LBlx2eK0VkS5GdZu8nA/Voyageur?node-id=1-199&viewport=-78%2C15%2C0.39&t=IWA2YaVHZugca1rN-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="card third" target="_blank">
+        <div class="image-box">
+          <img class="innerCard" src="assets/balloon.png" alt="Card Image">
+          <div class="arrowContainer">
+            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+                fill="#080313" />
+            </svg>
+          </div>>
+        </div>
+        <div class="card-content">
+          <p class="overline">Waether App for Travellers</p>
+          <h2 class="title">Voyageur</h2>
+          <p class="subtitle">Visual Thinking, UX Design</p>
+        </div>
+      </a>
+    </div>
 
-    <script src="script.js"></script>
+    <a href="https://www.figma.com/deck/TXE1G7TOGARYoWwk9D7IkQ/Building-and-Testing-Prototypes?node-id=1-108&viewport=-78%2C15%2C0.39&t=e9CTzCswNKQTRoBb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="card full" target="_blank">
+      <div class="image-box">
+        <img class="innerCard" src="assets/witch.png" alt="Card Image">
+        <div class="arrowContainer">
+          <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+              fill="#080313" />
+          </svg>
+        </div>
+
+      </div>
+      <div class="card-content">
+        <p class="overline">Wizard of Oz Prototyping</p>
+        <h2 class="title">Crafting Illusions to Test Big Ideas Quickly </h2>
+        <p class="subtitle">UX Research, UX Design</p>
+      </div>
+    </a>
+
+    <div class="row">
+      <a href="https://www.zalando-lounge.pl/event" class="card half" target="_blank">
+        <div class="image-box">
+          <img class="innerCard" src="assets/InnerCard.png" alt="Card Image">
+          <div class="arrowContainer">
+            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+                fill="#080313" />
+            </svg>
+          </div>>
+        </div>
+
+        <div class="card-content">
+          <p class="overline">Cross-Cultural UX Design</p>
+          <h2 class="title">Designing with Cultural Aspects</h2>
+          <p class="subtitle">UX Research, Usability Testing, UX Design</p>
+        </div>
+      </a>
+      <a href="https://www.behance.net/gallery/190820723/EMIT-Nasa-Space-Apps-Hackathon-UX-UI-project" class="card half" target="_blank">
+        <div class="image-box">
+          <img class="innerCard" src="assets/astrounaut.png" alt="Card Image">
+          <div class="arrowContainer">
+            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.992426 7.00003C0.440142 7.00003 -0.00418276 7.44773 0 8C0.00418276 8.55227 0.455289 8.99997 1.00757 8.99997L0.992426 7.00003ZM20.6409 8.70709C21.0285 8.31657 21.0237 7.68343 20.6302 7.29291L14.218 0.929135C13.8246 0.538622 13.1914 0.538622 12.8038 0.929135C12.4163 1.31965 12.4211 1.95279 12.8145 2.34331L18.5142 8L12.9002 13.6567C12.5127 14.0472 12.5175 14.6804 12.9109 15.0709C13.3044 15.4614 13.9376 15.4614 14.3252 15.0709L20.6409 8.70709ZM1 8L1.00757 8.99997H19.936L19.9285 8L19.9209 7.00003H0.992426L1 8Z"
+                fill="#080313" />
+            </svg>
+          </div>
+        </div>
+        <div class="card-content">
+          <p class="overline">NASA Space Hackathon</p>
+          <h2 class="title">How one Sensor, saved our Planet</h2>
+          <p class="subtitle">UX Design, UI Design</p>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Contact Section -->
+
+  <section class="contact-section" id="contact">
+    <div class="contact-content">
+      <div class="contact-text">
+        <p class="contact-label">CONTACT</p>
+        <h3>Let’s stay connected!</h3>
+        <p class="contact-body">
+          Good design starts with understanding. I’m here to make complex moments feel simple — and I’m looking for a team that’s just as thoughtful.
+        </p>
+        <ul class="contact-links">
+          <li>➔ CV</li>
+          <li>➔ E-mail</li>
+          <li>➔ LinkedIn</li>
+        </ul>
+      </div>
+      <div class="contact-image">
+        <img src="assets/JuliaPapee_UX_Designer.png" alt="Julia">
+      </div>
+    </div>
+  </section>
+  <div class="contact-bottom-bar"></div>
+  <script src="script.js"></script>
 
 </body>
+
 </html>
