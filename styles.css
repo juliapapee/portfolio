@@ -756,12 +756,24 @@ section {
   font-weight: 200;
   line-height: 30px;
   letter-spacing: 0.48px;
-  text-decoration-line: underline;
+  /*text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;*/
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+}
+
+.contact-links a {
+  color: #FFF; /* Your desired link color */
+  text-decoration: underline; /* Keep the underline if you want it */
+  text-underline-offset: 4px; /* Optional: for better visual spacing */
+}
+
+.contact-links a:hover,
+.contact-links a:focus {
+  color: #FDD2EB; /* A lighter color or any color you prefer on hover */
+  text-decoration-color: #FDD2EB; /* Optional: change underline color on hover */
 }
 
 .contact-image {
